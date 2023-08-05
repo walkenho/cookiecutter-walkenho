@@ -1,0 +1,15 @@
+{
+  "full_name": "Jessica Walkenhorst",
+  "email": "<walkenho@users.noreply.github.com>",
+  "project_name": "project_name",
+  "project_short_description": "My awesome project",
+  "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "virtualenv": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "python_version": "3.10.1",
+  "version": "0.1.0",
+  "line_length": "100",
+  "use_jupyter": "y",
+  "exploratory_data_analysis": "y",
+  "machine_learning": "n"
+}
