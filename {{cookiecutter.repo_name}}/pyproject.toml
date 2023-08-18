@@ -7,11 +7,6 @@ version = "{{ cookiecutter.version }}"
 description = "{{ cookiecutter.project_short_description }}"
 authors = ["{{ cookiecutter.full_name.replace('\"', '\\\"') }} <{{ cookiecutter.email }}>"]
 license = "UNLICENSED"
-packages = [
-  { include = "{{ cookiecutter.package_name }}", from = "{{ cookiecutter.package_name }}" },
-  # Add more packages here, e.g.
-  # { include = "module_name", from = "{{ cookiecutter.package_name }}" },
-]
 
 [tool.poetry.dependencies]
 python = "^{{ cookiecutter.python_version }}"
